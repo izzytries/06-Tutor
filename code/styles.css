@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'open sans', sans serif;
+    line-height: 1.6rem;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+:root {
+    --primary-color: #fc5d66;
+    --secondary-color: #ffc05a;
+    --light-color: #f9fafb;
+    --dark-color: #272d35;
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.container-sm {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+
+/* Navbar */
+.navbar {
+    z-index: 1000;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    /* background-color: var(--primary-color); */
+
+    .navbar-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    img {
+        width: 80px;
+        height: 32px;
+    }
+
+    .main-menu-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.8rem;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    a {
+        color: white;
+
+        &:hover {
+            color: var(--secondary-color);
+        }
+    }
+
+    i {
+        font-size: 1.2rem;
+    }
+}
+
+
+.hero{
+color: white;
+background: url(../images/header-background.jpg) center center / cover no-repeat;
+padding: 11.5rem 2rem 8rem 2rem;
+overflow: hidden;
+position: relative;
+/* height: 100vh; */
+
+
+.hero-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+}
+
+
+
+}

@@ -5,14 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Tutor</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Link Open Sans Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <!-- Link Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <!-- Top Navigation -->
-    <nav class="navbar"></nav>
+    <nav class="navbar">
+        <div class="navbar-flex container">
+            <a href="#hero"><img src="../images/logo.svg" alt="Tutor Logo"></a>
+            <div class="main-menu-items">
+                <ul class="main-menu-list">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#chapters">Chapters</a></li>
+                    <li><a href="#summary">Summary</a></li>
+                    <li><a href="#takeaways">Takeaways</a></li>
+                    <li><a href="#author">Author</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <a href="https://x.com/IzzyOzen" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/izzytries/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- Hero Section -->
-    <section class="hero section" id="hero"></section>
+    <section class="hero section" id="hero">
+        <div class="hero-flex container">
+            <div class="hero-content">
+                <h1>Create Your Own Video Courses</h1>
+                <p>Dive deep into the world of creativity and learn to craft stunning videos that captivate your audience.</p>
+                <a href="#" class="btn">$29 - Get Course</a>
+            </div>
+            <img src="../images/header-course.png" alt="">
+        </div>
+    </section>
 
     <!-- What you will learn Section -->
     <section class="learn section" id="learn"></section>
@@ -27,7 +63,7 @@
     <section class="info section" id="info"></section>
 
     <!-- Takeaways Section -->
-    <section class="Takeaways section" id="Takeaways"></section>
+    <section class="takeaways section" id="takeaways"></section>
 
     <!-- Details Section -->
     <section class="details section" id="details"></section>
@@ -43,6 +79,8 @@
 
     <!-- Footer -->
     <footer class="footer"></footer>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
